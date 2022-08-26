@@ -76,12 +76,12 @@ main{
     font-size: 1.3em;
     background-color: var(--cor03);
     padding: 0px 10px 5px;
-    margin: -10px -100px 0px -10px;
-
+    margin: -10px;
 }
 
 .search{
     padding: 10px;
+    margin: 10px;
     max-width: 400px;
     min-width: 200px;
 }
