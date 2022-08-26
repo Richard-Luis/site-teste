@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+:root{
+    --cor01: #7a7265;
+    --cor02: #8ac6d0;
+    --cor03: #145c9e;
+    --cor04: #000505;
+    --cor05: #140F14;
+    --cor06: #282433;
+    --cor07: rgb(180, 180, 43);
+
+    --fonte-padrao: Arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Kanit', sans-serif; 
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #140F14;
+}
+
+header{
+    color: #000505;
+    background-image:url('imagens/terno-header.png');
+    background-size: contain;
+}
+
+header > h1{
+    color:white;
+    font-family: var(--fonte-destaque);
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+header > p{
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1.3em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.navbutton{
+    text-align:right;
+    padding: 10px;
+}
+
+.navoptions{
+    padding:10px;
+}
+
+
+.navoptions > a{
+    color: var(--cor03);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 10px 10px 20px;
+}
+
+main{
+    min-width: 200px;
+    padding: 10px;
+}
+
+.promoçãofrase{
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    background-color: var(--cor03);
+    padding: 0px 10px 5px;
+    margin: -10px -100px 0px -10px;
+
+}
+
+.search{
+    padding: 10px;
+    max-width: 400px;
+    min-width: 200px;
+}
+
+a > .imagemlink{
+    max-width: 600px;
+    min-width: 200px;
+}
+
+img > .fotoslink{
+    max-width: 600px;
+    min-width: 200px;
+}
+
+.linkf{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: #000505;
+}
+
+.linkf:hover{
+    color: var(--cor02);
+}
