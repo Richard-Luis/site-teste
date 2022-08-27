@@ -86,13 +86,10 @@ main{
     min-width: 200px;
 }
 
-a > .imagemlink{
-    max-width: 600px;
-    min-width: 200px;
-}
-
-img > .fotoslink{
-    max-width: 600px;
+section > .imagemlink{
+    padding: 10px;
+    margin: 10px;
+    max-width: 600%;
     min-width: 200px;
 }
 
